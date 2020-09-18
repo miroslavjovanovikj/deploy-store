@@ -1,0 +1,45 @@
+.Cart-dropdown {
+	 position: absolute;
+	 width: 240px;
+	 height: 340px;
+	 display: flex;
+	 flex-direction: column;
+	 padding: 20px;
+	 border: 1px solid black;
+	 background-color: white;
+	 top: 90px;
+	 right: 40px;
+	 z-index: 5;
+}
+ .Cart-dropdown .Cart-items {
+	 height: 240px;
+	 display: flex;
+	 flex-direction: column;
+	 overflow: scroll;
+}
+.CartDropdownButton {
+ margin-top: auto;
+ background-color: rgb(8, 7, 7);
+border: none;
+color: white;
+padding: 14px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.CartDropdownButton:hover {
+margin-top: auto;
+background-color:rgb(246, 246, 246);
+border: 1px solid black;
+color: rgb(19, 18, 19);
+padding: 14px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+}
+.emtptyMessage{
+	font-size: 18px;
+	margin:50px auto;
+}

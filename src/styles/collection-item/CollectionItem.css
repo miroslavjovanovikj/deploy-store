@@ -1,0 +1,32 @@
+.Image{
+  height: 200px;
+
+  background-position: center;
+  background-size: cover;
+  border:5px solid white;
+}
+.CustomButton{
+  width:97%;
+  opacity: 0.7;
+  position: absolute;
+  top:135px;
+}
+.CustomButton{
+  width:97%;
+  opacity: 0.7;
+  position: absolute;
+  top:135px;
+}
+.title {
+  padding-top: 30px;
+}
+.price{
+  float: right;
+}
+.Collection-item{
+  width: 100%;
+  position: relative;
+}
+.Collection-footer{
+  padding:5px;
+}
